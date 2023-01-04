@@ -7,7 +7,7 @@ services:
       - ./notebooks:/home/jovyan/notebooks
     ports:
     # left is your machine, right is dockers, if you want to change, also add a --port=**** arg to the command line here
-      - "8894:8888"
+      - "8888:8888"
     env_file:
        - ./.env   
     environment:
